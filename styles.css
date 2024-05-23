@@ -1,0 +1,116 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    color: #343a40;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+}
+
+#contato-form {
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.btn {
+    border-radius: 5px;
+    padding: 10px 20px;
+}
+
+#adicionar-btn {
+    margin-top: 10px;
+    background-color: green;
+    border-color: greef;
+    color: #fff;
+}
+
+#salvar-btn {
+    margin-top: 10px;
+    background-color: #28a745;
+    border-color: #28a745;
+    color: #fff;
+}
+
+#contatos-list {
+    margin-top: 20px;
+}
+
+.contact-item {
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #fff;
+    transition: all 0.3s ease;
+}
+
+.contact-photo {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 20px;
+}
+
+.contact-name {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.contact-info {
+    margin-bottom: 5px;
+}
+
+.contact-actions button {
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin-right: 10px;
+}
+
+.contact-item:hover {
+    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.1);
+    transform: translateY(-5px);
+}
+
+.edit-button, .delete-button {
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin-right: 10px;
+    color: #fff;
+    transition: all 0.3s ease;
+}
+
+.edit-button {
+    background-color: #ffc107; 
+    border-color: #ffc107; 
+}
+
+.delete-button {
+    background-color: #dc3545;
+    border-color: #dc3545; 
+}
+
+.edit-button:hover, .delete-button:hover {
+    transform: translateY(-2px); 
+}
+
+.edit-button:disabled, .delete-button:disabled {
+    opacity: 0.5; 
+    cursor: not-allowed; 
+}
