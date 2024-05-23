@@ -3,7 +3,6 @@ body {
     background-color: #f8f9fa;
     color: #343a40;
 }
-
 h1 {
     text-align: center;
     margin-top: 50px;
@@ -26,7 +25,6 @@ h1 {
 .form-group {
     margin-bottom: 15px;
 }
-
 .btn {
     border-radius: 5px;
     padding: 10px 20px;
@@ -58,7 +56,6 @@ h1 {
     background-color: #fff;
     transition: all 0.3s ease;
 }
-
 .contact-photo {
     width: 100px;
     height: 100px;

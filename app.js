@@ -1,5 +1,8 @@
-// Autor: Luan Oliveira
-// Data: 21/05/2024
+/*
+Autor: Luan Oliveira
+Data: 21/05
+Objetivo: Usar get, delete, post e edit com o back disponibilizado pelo professor Leonid.
+*/
 
 document.addEventListener('DOMContentLoaded', function () {
     const contactContainer = document.getElementById('contatos-list');
